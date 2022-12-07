@@ -1,0 +1,38 @@
+{
+    "name": "hopo/capo",
+    "description": "Render hml by spec.",
+    "keywords": [
+        "php",
+        "html",
+        "json"
+    ],
+    "homepage": "https://github.com/hopocode/php-capo-renderer",
+    "license": [
+        "BSD-3-Clause",
+        "GPL-2.0-only",
+        "GPL-3.0-only"
+    ],
+    "authors": [
+        {
+            "name": "Jan Pospisil",
+            "homepage": "https://honzapospisil.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0 <8.3",
+        "nette/utils": "^4.0"
+    },
+    "require-dev": {
+        "nette/tester": "^2.4",
+        "tracy/tracy": "^2.8"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "tester": "tester tests -s"
+    }
+}
